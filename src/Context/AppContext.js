@@ -6,13 +6,16 @@ const AppContext = createContext();
 // Provider Component
 export function AppProvider({ children }) {
   const [sharedState, setSharedState] = useState({
+    pricePerGallonUSD: 0,
+    pricePerGallonCAD: 0,
     pricePerLitreUSD: 0,
     pricePerLitreCAD: 0,
+    expenceCadPerDistance: 0,
+    expenceUsdPerDistance: 0,
     distance: '',
     averageFuelConsumptionPerLitre: 10,
-    litresPerGallon: 0,
-    usdPerGallon: '',
-    // Add other shared state variables as needed
+    litresPerGallon: 3.78541,
+    usdToCadExchangeRate: 1.372,
   });
 
   // Method to update the state
