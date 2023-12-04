@@ -13,7 +13,7 @@ export function AppProvider({ children }) {
     expenceCadPerDistance: 0,
     expenceUsdPerDistance: 0,
     distance: '',
-    averageFuelConsumptionPerLitre: 10,
+    litresPer100Km: 10,
     litresPerGallon: 3.78541,
     usdToCadExchangeRate: 1.372,
   });

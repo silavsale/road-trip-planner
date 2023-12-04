@@ -47,7 +47,7 @@ const FuelCost = () => {
     updateState('pricePerLitreUSD', pricePerLitreUSD);
     updateState('pricePerGallonUSD', usdPerGallon);
     updateState('pricePerLitreCAD', pricePerLitreCAD);
-    updateState('averageFuelConsumptionPerLitre', litresPer100Km);
+    updateState('litresPer100Km', litresPer100Km);
     updateState('pricePerGallonCAD', pricePerGallonCAD);
     updateState('distance', distance);
     updateState('expenceCadPerDistance', expenceCadPerDistance);
